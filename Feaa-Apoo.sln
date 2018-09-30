@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2036
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Feaa.Apoo.Mp.Web", "presentation-layer\Feaa.Apoo.Mp.Web\Feaa.Apoo.Mp.Web.csproj", "{8581C2CA-0EC7-4092-8305-FB546915CBDA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01_presentation-layer", "01_presentation-layer", "{AE2F5CDD-6171-40B5-8672-17E5772765B9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02_application-layer", "02_application-layer", "{CC661498-9604-4DDC-A692-15C42BE53758}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03_domain-layer", "03_domain-layer", "{F90C4759-2151-4D18-BD20-1EFACF5483AE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04_data-access-layer", "04_data-access-layer", "{4AB4C82E-434B-4AA4-B74E-018CCAEEAB68}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "00_infrastructure", "00_infrastructure", "{E12AC4EB-5AA0-4638-AAC0-3CA72AFCABF5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8581C2CA-0EC7-4092-8305-FB546915CBDA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8581C2CA-0EC7-4092-8305-FB546915CBDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8581C2CA-0EC7-4092-8305-FB546915CBDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8581C2CA-0EC7-4092-8305-FB546915CBDA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8581C2CA-0EC7-4092-8305-FB546915CBDA} = {AE2F5CDD-6171-40B5-8672-17E5772765B9}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5FA44BF7-F45B-4FD5-9C50-D069D682C614}
+	EndGlobalSection
+EndGlobal

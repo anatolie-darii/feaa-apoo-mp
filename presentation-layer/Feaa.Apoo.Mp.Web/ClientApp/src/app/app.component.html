@@ -1,0 +1,28 @@
+<mat-toolbar>
+  <span>{{title}}</span>
+</mat-toolbar>
+<mat-drawer-container class="main-container">
+  <mat-drawer mode="side" opened>
+    <mat-nav-list>
+      <mat-list-item>
+        <mat-icon>info</mat-icon>
+        <a matLine routerLink="projects">Proiecte</a>
+      </mat-list-item>
+      <mat-list-item>
+        <mat-icon>info</mat-icon>
+        <a matLine routerLink="tasks">Sarcini</a>
+      </mat-list-item>
+      <mat-list-item>
+        <mat-icon>info</mat-icon>
+        <a matLine routerLink="employees">Responsabili</a>
+      </mat-list-item>
+      <mat-list-item>
+        <mat-icon>info</mat-icon>
+        <a matLine routerLink="resources">Resurse materiale</a>
+      </mat-list-item>
+    </mat-nav-list>
+  </mat-drawer>
+  <mat-drawer-content>
+    <router-outlet></router-outlet>
+  </mat-drawer-content>
+</mat-drawer-container>
