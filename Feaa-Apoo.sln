@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28010.2036
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Feaa.Apoo.Mp.Web", "presentation-layer\Feaa.Apoo.Mp.Web\Feaa.Apoo.Mp.Web.csproj", "{8581C2CA-0EC7-4092-8305-FB546915CBDA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Feaa.Apoo.Mp.Web", "presentation-layer\Feaa.Apoo.Mp.Web\Feaa.Apoo.Mp.Web.csproj", "{8581C2CA-0EC7-4092-8305-FB546915CBDA}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01_presentation-layer", "01_presentation-layer", "{AE2F5CDD-6171-40B5-8672-17E5772765B9}"
 EndProject
@@ -15,6 +15,12 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04_data-access-layer", "04_
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "00_infrastructure", "00_infrastructure", "{E12AC4EB-5AA0-4638-AAC0-3CA72AFCABF5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Feaa.Apoo.Mp.Api", "application-layer\Feaa.Apoo.Mp.Api\Feaa.Apoo.Mp.Api.csproj", "{39B130B7-D78E-4A66-B761-F743F5D9F888}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Feaa.Apoo.Mp.Domain", "domain-layer\Feaa.Apoo.Mp.Domain\Feaa.Apoo.Mp.Domain.csproj", "{80971DA2-4A57-4CCA-9BBA-9D04219CC16C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Feaa.Apoo.Mp.DataAccess", "data-access-layer\Feaa.Apoo.Mp.DataAccess\Feaa.Apoo.Mp.DataAccess.csproj", "{CAF2EE21-556C-4D40-81A9-FF5FFA95374A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -25,12 +31,27 @@ Global
 		{8581C2CA-0EC7-4092-8305-FB546915CBDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8581C2CA-0EC7-4092-8305-FB546915CBDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8581C2CA-0EC7-4092-8305-FB546915CBDA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{39B130B7-D78E-4A66-B761-F743F5D9F888}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39B130B7-D78E-4A66-B761-F743F5D9F888}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39B130B7-D78E-4A66-B761-F743F5D9F888}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39B130B7-D78E-4A66-B761-F743F5D9F888}.Release|Any CPU.Build.0 = Release|Any CPU
+		{80971DA2-4A57-4CCA-9BBA-9D04219CC16C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80971DA2-4A57-4CCA-9BBA-9D04219CC16C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80971DA2-4A57-4CCA-9BBA-9D04219CC16C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80971DA2-4A57-4CCA-9BBA-9D04219CC16C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CAF2EE21-556C-4D40-81A9-FF5FFA95374A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CAF2EE21-556C-4D40-81A9-FF5FFA95374A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CAF2EE21-556C-4D40-81A9-FF5FFA95374A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CAF2EE21-556C-4D40-81A9-FF5FFA95374A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{8581C2CA-0EC7-4092-8305-FB546915CBDA} = {AE2F5CDD-6171-40B5-8672-17E5772765B9}
+		{39B130B7-D78E-4A66-B761-F743F5D9F888} = {CC661498-9604-4DDC-A692-15C42BE53758}
+		{80971DA2-4A57-4CCA-9BBA-9D04219CC16C} = {F90C4759-2151-4D18-BD20-1EFACF5483AE}
+		{CAF2EE21-556C-4D40-81A9-FF5FFA95374A} = {4AB4C82E-434B-4AA4-B74E-018CCAEEAB68}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5FA44BF7-F45B-4FD5-9C50-D069D682C614}

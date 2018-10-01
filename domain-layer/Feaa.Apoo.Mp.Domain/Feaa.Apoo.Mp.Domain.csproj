@@ -1,0 +1,11 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\data-access-layer\Feaa.Apoo.Mp.DataAccess\Feaa.Apoo.Mp.DataAccess.csproj" />
+  </ItemGroup>
+
+</Project>
